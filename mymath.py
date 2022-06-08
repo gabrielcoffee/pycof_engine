@@ -10,5 +10,6 @@ def aproxNum(num, target, amount):
         else:
             return num + amount
 
+# linear interpolation
 def lerp(num, target, percentage):
     return (percentage * num) + ((1 - percentage) * target)

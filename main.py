@@ -1,7 +1,7 @@
 import pygame
-from managers.manager_scene import SceneManager
-from managers.manager_input import InputManager
-from managers.manager_resource import ResourceManager
+from manager_scene import SceneManager
+from manager_input import InputManager
+from manager_resource import ResourceManager
 
 pygame.init()
 
